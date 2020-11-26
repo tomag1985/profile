@@ -1,0 +1,97 @@
+body {
+    background-color: #F7F9FC;
+}
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+}
+
+h2 {
+    color: #7ECD90;
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+    color: rgba(0,0,0,0.8)
+}
+
+a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-rrss:hover {
+    color: black;
+  }
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#introduction a {
+    padding: 15px 20px;
+    border-radius: 4px;
+    background-color: #008080;
+}
+
+#introduction a:hover {
+    background-color: #4169E1;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#rrss a {
+    font-size: 50px;
+    background-color: rgb(230, 230, 230);
+    padding: 8px;
+}
+
+.inline-list {
+    display: block;
+    list-style: none;
+    padding-left: 0;
+}
+
+.inline-list li {
+    display: inline;
+    padding: 0 10px;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    #container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    #container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    #container {
+      width: 300px;
+    }
+  }
